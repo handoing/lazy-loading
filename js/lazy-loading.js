@@ -79,7 +79,6 @@
 
         };
 
-    // Array.prototype.slice.call无法在我们可爱的ie8下调用
     for (var i = 0; i < query.length; i++) {
         images.push(query[i]);
     }
